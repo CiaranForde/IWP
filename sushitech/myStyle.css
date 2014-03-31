@@ -1,0 +1,42 @@
+/* This is the CSS style sheet. It manages the styling for the User selection form and the font for the PHP output*/
+
+
+body{background-color:#d3d3d3}   
+
+h1 {font-size:10px;
+    font-family:arial;
+    margin-left:5px;}
+
+fieldset {width: 260px;
+          height: 80px;
+          border: 0px solid #000;  
+          border-radius:6px; 
+          background-image:url('sushitechx.jpg'); /*This is the background image for the User select box*/
+          background-repeat: no-repeat;
+          padding: none;
+          -moz-box-shadow: 0 0 5px 5px #888;
+        -webkit-box-shadow: 0 0 5px 5px#888;
+            box-shadow: 0 0 5px 5px #888;
+ }    
+
+
+legend {font-size: 10px;
+        font-weight:bold;
+        font-family:arial;
+    }
+
+input, select {width: 50px;
+              font-family: arial;
+              font-size: 12px;
+} 
+         
+
+
+#statement{font-family: arial;
+            font-size:12px ;
+            margin-left:5px;}
+
+
+#output {height:600px;
+            width:300px;
+            border: 6px solid #fff;}
