@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<!--Name: releases.html 
+
+	 Verersion: 1
+
+	 Date 10/03/14
+
+	 Author: Ciaran Forde
+
+     Description: Releases page for Sushitech Records website.-->
+
+<html>
+	<head>
+		<title>Releases</title>
+
+		<!--allows for scaling related to device sute is being viewed on-->
+		<meta name ="viewport" content ="width=device-width, initial-scal=1.0">  
+		
+		<link href= "css/bootstrap.min.css" rel ="stylesheet">
+		<link href= "styles.css" rel ="stylesheet">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+	</head>
+	
+	<body>
+
+		<!--NavBar-->
+		<div class ="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+
+
+						<a href ="#" class="navbar-brand">Sushitech Records</a>
+
+						<!--collapse button reveals when screen size is altered to table or mobile size-->
+						<button class ="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
+
+							<!--icon bar from Bootstrap-->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+
+						</button>	
+
+						<!--navHeaderCollapse ID for button-->
+						<div class ="collapse navbar-collapse navHeaderCollapse">
+						
+
+							<!-- unordered list, class styling and alignment-->
+							<ul class="nav navbar-nav navbar-right">
+
+								<li class="active"><a href ="index.html">Home</a></li>
+								<li><a href ="news.html">News</a></li>
+								
+								<li class = "dropdown">
+
+									<a href ="#" class ="dropdown-toggle" data-toggle ="dropdown">Artists<b class ="caret"></b>
+									<ul class ="dropdown-menu">
+										
+										<li><a href="#">Delano Smith</a><li>
+										<li><a href="#">Mike Huckaby</a><li>
+										<li><a href="#">Ryan Elliott</a><li>
+										<li><a href="#">Norm Talley</a><li>	
+										<li><a href="#">Anonym</a><li>
+										<li><a href="#">Leonel Castillo</a><li>
+										<li><a href="#">Tobias Freund</a><li>
+										<li><a href="#">Yossi Amoyal</a><li>
+										<li><a href="#">Steve O'Sullivan</a><li>
+										<li><a href="#">XDB</a><li>							
+									</ul>
+									</li>
+										
+								<li><a href ="releases.html">Releases</a></li>
+								<li><a href ="#contact" data-toggle="modal">Contact</a></li>  <!--Javascript event ID for modal-->
+
+							</ul>	
+						</div>	
+				</div>
+		</div>
+
+		<div id = "myCarousel" class = "carousel" data ride = "carousel">
+
+			<ol class = "carousel-indicators">
+				<li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+				<li data-target = "#myCarousel" data-slide-to = "1"></li>
+				<li data-target = "#myCarousel" data-slide-to = "2"></li>
+			</ol>
+
+			<div class = "carousel-inner">
+
+				<div class ="item active">
+					<img src = "images/sushitechcarousel1.jpg" alt ="Sushistech carousel logo" class="img-responsive" width="100%">					
+				</div>	
+
+				<div class ="item">
+					<img src = "images/sushitechcarousel2.jpg" alt ="Sushistech carousel logo" class="img-responsive" width="100%" >	
+					
+				</div>	
+
+				<div class ="item">
+					<img src = "images/sushitechcarousel3.jpg" alt ="Sushistech carousel logo" class="img-responsive" width="100%">	
+				</div>	
+
+			</div>	
+
+				<a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">
+					<span class = "icon-prev"></span>
+				</a>
+					<a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
+					<span class = "icon-next"></span>
+				</a>
+
+			</div>	
+
+		</div>	
+
+
+		<!--container rows with text containing tooltips-->
+
+		<div class = "container">
+		
+			<div class = "row">
+			
+			<div class = "col-md-6">
+
+				<h3><a href = "#">New Releases</a><h3>
+					<p>Here is some textHere is some text Here is some text Here is some <a href="#" id="infoTip" data-toggle="tooltip" title="new release next week!" data-original-title="Default tooltip">some</a> Here is some text Here is some text Here is some text Here is some text Here is some text Here is some textHere is some textHere is some textHere Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text </p>
+					<a href = "#" class = "btn btn-default">Read More</a>
+			</div>	
+											
+
+			<div class = "col-md-6">
+			
+				<h3><a href = "#">New Releases</a><h3>
+					<p>Here is some textHere is some text Here is some We have an in-depth interview on the way!We have an in-depth interview on the way!<a href="#" id="infoTips" data-toggle="tooltip" title="interview soon!" data-original-title="Default tooltip">some</a>text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some textHere is some textHere is some textHere Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text Here is some text </p>
+					<a href = "#" class = "btn btn-default">Read More</a>
+			</div>	
+
+			
+				<div class = "row">
+			
+			<div class = "col-md-12">
+
+				<h3><a href = "#">Thomas Melchoir Joins the Team..</a><h3>
+					<img src="images/thomas melchoir.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%">
+			</div>
+
+			</div>	
+
+
+		
+		<div class = "row">
+			
+			<div class = "col-md-2">
+
+				<h3><a href = "#">Delano Smith</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			<div class = "col-md-2">
+
+				<h3><a href = "#">Norm Talley</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			<div class = "col-md-2">
+
+				<h3><a href = "#">Mike Huckaby</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			<div class = "col-md-2">
+
+				<h3><a href = "#">Anonym</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			<div class = "col-md-2">
+
+				<h3><a href = "#">XDB</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			<div class = "col-md-2">
+
+				<h3><a href = "#">Tobias</a><h3>
+					<a href="#"><img src="images/vinyl.jpg" class="img-responsive" alt="Responsive image" width ="100%" height="100%"></a>
+					<p>Here is some Artist information</p>
+			</div>
+
+			</div>	
+
+
+
+		</div>	
+
+
+		<!--footer-->
+
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+		
+			<div class = "container">
+					<p class = "navbar-text pull-left">Some Text</p>
+			
+					<a class = "navbar-btn btn-danger btn pull-right">Sounds</a>
+
+			</div>
+
+		</div>
+
+
+		<!--Modal Form-->
+
+		  <div class = "modal fade" id = "contact" role = "dialog">
+                    <div class = "modal-dialog">
+                        <div class = "modal-content">
+
+                        	<form class ="forms-horizontal">
+                            	<div class = "modal-header">
+                               	 <h4>Contact Sushitech</h4>
+                            	</div>
+                            		<div class = "modal-body">
+                            		
+			                            			<div class ="form-group">
+			                            				<label for "contact-name" class ="col-lg-2 control-label">Name</label>
+			                            					<div class="col-lg-10">	
+
+			                            						<input type="text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+
+			                            					</div>
+
+												<div class ="form-group">
+			                            				<label for "contact-email" class ="col-lg-2 control-label">Name</label>
+			                            					<div class="col-lg-10">	
+
+			                            						<input type="email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+
+			                            					</div>
+
+                            		
+
+
+		                            				<div class ="form-group">
+		                            				<label for "conact=msg" class ="col-lg-2 control-label">Message</label>
+		                            					<div class="col-lg-10">	
+
+		                            							<textarea class = "form-control" rows="6"></textarea>
+		                            						
+		                            					</div>
+
+                            			</div>
+                            			
+
+
+                            		</div>
+                            	<div class = "modal-footer">
+                        				<a class = "btn btn-default" data-dismiss = "modal">Close</a>    
+                                	<button class = "btn btn-primary" type="submit">Submit</button>
+                           		 </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+
+	
+
+<!--JavaScript-->
+
+<!--JavaScript for carousel-->
+
+<script type="text/javascript">
+  var $ = jQuery.noConflict();
+  $(document).ready(function() { 
+      $('#myCarousel').carousel({ interval: 3000, cycle: true });
+  }); 
+</script>
+
+<!--script for tooltips to show when page is opened-->
+
+<script>
+
+$('#infoTip').tooltip('show')
+$('#infoTips').tooltip('show')
+
+</script>
+
+
+
+	</body>
+</html>

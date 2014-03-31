@@ -1,0 +1,18 @@
+/*Name: styles.css
+
+	 Verersion: 1
+
+	 Date 10/03/14
+
+	 Author: Ciaran Forde
+
+     Description: Custom CSS for Sushitech Records website*/
+
+/* margin for navbar is zer0*/
+
+.navbar-inverse {margin:0px;}
+
+
+/*colour change*/
+a {color:#333;
+	}
